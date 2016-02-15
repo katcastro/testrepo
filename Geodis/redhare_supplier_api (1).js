@@ -49,6 +49,7 @@ RHSupplierApi.doGet = function(dataIn) {
 //		Item Fulfillment - DO Conf
 //		Purchase Order - ASN
 //		Item Receipt - ASN Conf
+		//TEST ME
 		
 		if (operation=='getitems' && StringUtils.isNotEmpty(dataIn.searchid)) {
 			rhSupplierAPISletResponse = nlapiRequestURL(rhSupplierAPISletURL + '&operation=getitems&searchid=' + dataIn.searchid);
